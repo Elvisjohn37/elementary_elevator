@@ -1,0 +1,27 @@
+.Elevator {
+  height: fit-content;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.082);
+}
+
+.Elevator-move-requests {
+  position: absolute;
+  top: 50px;
+}
+
+.Elevator-move-requests ul {
+  display: contents;
+}
+
+.Elevator-move-requests ul li {
+  list-style: none;
+}
+
+.Elevator-car {
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 10px;
+  min-width: 200px;
+  min-height: 400px;
+}

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Elevator /> Should render snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Elevator"
+  >
+    <div
+      class="Elevator-move-requests"
+    >
+      <ul />
+    </div>
+    <div
+      class="Elevator-car"
+    >
+      <div
+        class="Elevator-name"
+      >
+        elevator1
+      </div>
+      <div
+        class="Elevator-status"
+      >
+        stay
+      </div>
+      <div
+        class="Elevator-current-floor"
+      >
+        1
+      </div>
+    </div>
+    <div
+      class="Elevator-move"
+    >
+      <button>
+        UP
+      </button>
+      <button>
+        DOWN
+      </button>
+      <button>
+        Random passenger
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

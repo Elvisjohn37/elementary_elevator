@@ -1,0 +1,18 @@
+.FloorOption {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 10px;
+}
+
+.FloorOption form {
+  display: flex;
+  flex-direction: column;
+}
+
+.FloorOption input {
+  max-width: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
