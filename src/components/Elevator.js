@@ -33,8 +33,8 @@ const Elevator = ({
 }) => {
   const [isShowFloorForm, setIsShowFloorForm] = React.useState(false);
   const dispatch = useDispatch();
-  const openFloorTime = 5000;
-  const moveFloorTime = 1000;
+  const openFloorTime = 10000;
+  const moveFloorTime = 10000;
   const [isFloorFrom, setIsFloorFrom] = React.useState(true);
   const [userMove, setUserMove] = React.useState(move);
 
