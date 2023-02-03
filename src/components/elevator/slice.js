@@ -10,24 +10,7 @@ const initialState = {
       status: "stay",
       move: "up",
       // hasOutFloor: false,
-      passengers: [
-        {
-          floorFrom: 10,
-          floorTo: 1,
-        },
-        {
-          floorFrom: 4,
-          floorTo: 8,
-        },
-        // {
-        //   floorFrom: 3,
-        //   floorTo: 5,
-        // },
-        // {
-        //   floorFrom: 6,
-        //   floorTo: 2,
-        // },
-      ],
+      passengers: [],
     },
     {
       id: 2,
