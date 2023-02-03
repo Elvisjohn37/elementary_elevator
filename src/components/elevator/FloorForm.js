@@ -33,16 +33,14 @@ const FloorForm = ({
   return (
     <div className="FloorForm">
       <form onSubmit={handleSubmit}>
+        {isFloorFrom
+          ? "Enter your current floor"
+          : "Enter your floor destination"}
         <input
           type="number"
           max={maxFloor}
           min={minFloor}
           value={floor}
-          placeholder={
-            isFloorFrom
-              ? "Enter your current floor"
-              : "Enter your floor destination"
-          }
           onChange={(event) => setFloor(event.target.value)}
         />
       </form>
