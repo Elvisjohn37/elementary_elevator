@@ -38,6 +38,11 @@ const FloorForm = ({
           max={maxFloor}
           min={minFloor}
           value={floor}
+          placeholder={
+            isFloorFrom
+              ? "Enter your current floor"
+              : "Enter your floor destination"
+          }
           onChange={(event) => setFloor(event.target.value)}
         />
       </form>
